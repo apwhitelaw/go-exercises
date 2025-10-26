@@ -14,7 +14,7 @@ All data stored locally in `tasks.json` in the current directory, while will be 
 | Command          | Description                                           | Example                          |
 | ---------------- | ----------------------------------------------------- | -------------------------------- |
 | `list`           | Display all current tasks                             | `go run todo.go list`                |
-| `add <task>`     | Add a new task                                        | `go run todo.go add "Buy groceries"` |
+| `add <name>`     | Add a new task                                        | `go run todo.go add "Buy groceries"` |
 | `done <index>`   | Toggle the completion status of a task                | `go run todo.go done 2`              |
 | `remove <index>` | Remove a task from the list                           | `go run todo.go remove 3`            |
 
